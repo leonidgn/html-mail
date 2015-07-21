@@ -40,16 +40,16 @@ export NAGIOS_SHORTDATETIME='05-10-2012 22:22:23'
 export NAGIOS_NOTIFICATIONTYPE='PROBLEM'
 export NAGIOS_HOSTSTATE='DOWN'
 export NAGIOS_HOSTOUTPUT='CRITICAL - Host Unreachable (192.168.1.2)'
-../plugins/notify-html-email $LOCATION 
+./notify-html-email $LOCATION 
 
 export NAGIOS_NOTIFICATIONTYPE='RECOVERY'
 export NAGIOS_HOSTSTATE='UP'
 export NAGIOS_HOSTOUTPUT='It is up'
-../plugins/notify-html-email $LOCATION 
+./notify-html-email $LOCATION 
 
 export NAGIOS_NOTIFICATIONTYPE='ACKNOWLEDGEMENT'
 export NAGIOS_HOSTSTATE='UP'
 export NAGIOS_HOSTOUTPUT='It is up'
 export NAGIOS_NOTIFICATIONAUTHORALIAS='Some Username'
 export NAGIOS_NOTIFICATIONCOMMENT='this is an ack message'
-../plugins/notify-html-email $LOCATION 
+./notify-html-email $LOCATION 

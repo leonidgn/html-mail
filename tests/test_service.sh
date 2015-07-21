@@ -39,9 +39,9 @@ export NAGIOS_HOSTADDRESS='192.168.1.2'
 export NAGIOS_SERVICEOUTPUT='WARNING'
 export NAGIOS_SERVICEATTEMPT=1
 
-../plugins/notify-html-email $LOCATION 
+./notify-html-email $LOCATION 
 
 export NAGIOS_NOTIFICATIONAUTHORALIAS='Some Username'
 export NAGIOS_NOTIFICATIONTYPE='ACKNOWLEDGEMENT'
 export NAGIOS_NOTIFICATIONCOMMENT='this is an ack message'
-../plugins/notify-html-email $LOCATION
+./notify-html-email $LOCATION

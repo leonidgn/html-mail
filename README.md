@@ -1,9 +1,9 @@
-nagios-html-email
+notify-html-email
 =================
 
 A script to send html email notifications from Nagios.
 
-![example-notification](https://github.com/jasonhancock/nagios-html-email/raw/master/example-images/example-notification.png)
+![example-notification](https://github.com/leonidgn/html-mail/raw/master/example-images/example-notification.png)
 
 License: MIT
 ------------
